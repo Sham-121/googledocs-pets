@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Virtual Pet</h2>
+
+    <div class="controls">
+        <label for="breed">Choose pet</label>
+        <select id="breed">
+            <option value="Akita"></option>
+            <option value="Black"></option>
+            <option value="Brown"></option>
+            <option value="Red"></option>
+            <option value="White"></option>
+        </select>
+        <br><br>
+
+        <label for="count">Number of pets</label>
+        <input type="number" id="count" value="1" min="1" max="5">
+        <button id="spawn">Spawn pets</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
